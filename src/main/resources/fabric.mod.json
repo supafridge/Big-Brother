@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "big_brother",
+	"version": "${version}",
+	"name": "Big Brother",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/big_brother/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gg.fridge.big_brother.BigBrother"
+		]
+	},
+	"mixins": [
+		"big_brother.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
