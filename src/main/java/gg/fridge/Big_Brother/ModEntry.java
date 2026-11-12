@@ -1,7 +1,5 @@
 package gg.fridge.Big_Brother;
 
-import net.minecraft.resources.Identifier;
-
 import net.fabricmc.api.ClientModInitializer;
 
 import org.slf4j.Logger;
