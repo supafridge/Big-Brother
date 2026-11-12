@@ -3,20 +3,21 @@
 	"id": "big_brother",
 	"version": "${version}",
 	"name": "Big Brother",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Make Minecraft less like 1984! Removes Mojang's ability to block servers.",
 	"authors": [
-		"Me!"
+		"fridge"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/big-brother",
+		"source": "https://github.com/supafridge/Big-Brother",
+		"issues": "https://github.com/supafridge/Big-Brother/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/big_brother/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"gg.fridge.big_brother.BigBrother"
+		"client": [
+          "gg.fridge.Big_Brother.ModEntry"
 		]
 	},
 	"mixins": [
